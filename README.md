@@ -1,6 +1,6 @@
 # UniVCL
 
-# This is the repository for Unifying Vision Unsupervised Contrastive Learning from a Graph Perspective
+This is the repository for Unifying Vision Unsupervised Contrastive Learning from a Graph Perspective
 This repo is mainly copied from the MSF (https://github.com/UMBCvision/MSF).
 
 # Requirements

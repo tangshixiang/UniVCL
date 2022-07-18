@@ -8,7 +8,4 @@ torch==1.8.1
 
 torchvision==0.9.0
 
-# Training
-
-
-# Evaluation
+# Usage

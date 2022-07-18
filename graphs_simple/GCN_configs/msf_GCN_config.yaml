@@ -1,0 +1,33 @@
+GCN_configs_q:
+  0:
+    in_features: 512
+    out_features: 4096
+    withbn: True
+    otheraggre: False
+    withweight: False
+    selfloop: True
+    withselfweight: True
+    bias: True
+    activation_type: relu
+  1:
+    in_features: 4096
+    out_features: 512
+    withbn: False
+    otheraggre: False
+    withweight: False
+    selfloop: True
+    withselfweight: True
+    bias: True
+    activation_type: identity
+
+GCN_configs_t:
+  0:
+    in_features: 512
+    out_features: 512
+    withbn: False
+    otheraggre: True
+    withweight: False
+    selfloop: False
+    withselfweight: False
+    bias: False
+    activation_type: identity
